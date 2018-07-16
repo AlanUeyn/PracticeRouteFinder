@@ -1,0 +1,47 @@
+ext {
+
+    androidBuildToolsVersion = "27.1.0"
+    androidMinSdkVersion = 21
+    androidTargetSdkVersion = 27
+    androidCompileSdkVersion = 27
+
+    supportLibraryVersion = '27.1.0'
+    rxJavaVersion = '2.0.2'
+    javaxAnnotationVersion = '1.0'
+    javaxInjectVersion = '1'
+    androidAnnotationsVersion = '21.0.3'
+    daggerVersion = '2.11'
+    roomVersion = '1.1.1'
+    lifecycleVersion = '1.1.1'
+    pagingVersion = '1.0.0'
+
+    jUnitVersion = '4.12'
+    assertJVersion = '3.8.0'
+    mockitoVersion = '2.0.0-RC1'
+    robolectricVersion = '3.4.2'
+
+
+    appDependencies = [
+
+            javaxAnnotation:        "javax.annotation:jsr250-api:${javaxAnnotationVersion}",
+            javaxInject:            "javax.inject:javax.inject:${javaxInjectVersion}",
+            rxJava:                 "io.reactivex.rxjava2:rxandroid:${rxJavaVersion}",
+            androidAnnotations:     "com.android.support:support-annotations:${supportLibraryVersion}",
+            androidSupportV4:       "com.android.support:support-v4:${supportLibraryVersion}",
+            androidSupportV13:      "com.android.support:support-v13:${supportLibraryVersion}",
+            appCompatV7:            "com.android.support:appcompat-v7:${supportLibraryVersion}",
+            supportRecyclerView:    "com.android.support:recyclerview-v7:${supportLibraryVersion}",
+            supportDesign:          "com.android.support:design:${supportLibraryVersion}",
+            roomRuntime:            "android.arch.persistence.room:runtime:${roomVersion}",
+            roomCompiler:           "android.arch.persistence.room:compiler:${roomVersion}",
+            roomRxJava:             "android.arch.persistence.room:rxjava2:${roomVersion}",
+            lifecycleExtentions:    "android.arch.lifecycle:extensions:${lifecycleVersion}",
+            lifecycleCompiler:      "android.arch.lifecycle:compiler:${lifecycleVersion}",
+            paging:                 "android.arch.paging:runtime:${pagingVersion}"
+
+    ]
+
+
+
+
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".view.MainActivity">
+
+
+
+    <Button
+        android:id="@+id/beginning_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_point"
+        android:textColor="#777"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textAlignment="textStart"
+        android:background="@drawable/button_shape"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/destination_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/end_point"
+        android:textColor="#777"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textAlignment="textStart"
+        android:background="@drawable/button_shape"
+        app:layout_constraintTop_toBottomOf="@+id/beginning_spinner">
+
+    </Button>
+
+
+    <Button
+        android:id="@+id/add_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/add_button"
+        app:layout_constraintBottom_toTopOf="@+id/calculate_btn" />
+
+    <Button
+        android:id="@+id/calculate_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/calculate_button"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

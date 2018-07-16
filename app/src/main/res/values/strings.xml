@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PracticeRouteFinder</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="start_point">Choose the beginning point</string>
+    <string name="end_point">Choose the destination point</string>
+    <string name="calculate_button">Calculate route</string>
+    <string name="add_button">Add checkpoints</string>
+    <string name="beginning_promt">Select beginning checkpoint</string>
+    <string name="ok_button">OK</string>
+</resources>
